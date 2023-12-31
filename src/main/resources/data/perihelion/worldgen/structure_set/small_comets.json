@@ -1,0 +1,18 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "exclusion_zone": {
+      "chunk_count": 8,
+      "other_set": "perihelion:entangled_comets"
+    },
+    "salt": 4529864,
+    "separation": 7,
+    "spacing": 9
+  },
+  "structures": [
+    {
+      "structure": "perihelion:small_comet",
+      "weight": 1
+    }
+  ]
+}

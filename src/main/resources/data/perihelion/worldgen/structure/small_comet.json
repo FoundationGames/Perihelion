@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "perihelion:near_sun_orbit",
+  "max_distance_from_center": 80,
+  "size": 4,
+  "spawn_overrides": {},
+  "start_height": {
+    "absolute": 75
+  },
+  "start_pool": "perihelion:small_comet/comet",
+  "step": "surface_structures",
+  "use_expansion_hack": true
+}

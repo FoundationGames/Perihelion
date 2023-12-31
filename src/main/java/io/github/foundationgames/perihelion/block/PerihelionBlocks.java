@@ -20,10 +20,10 @@ public class PerihelionBlocks {
     public static final Block BLACK_ICE = reg("black_ice", new Block(FabricBlockSettings.copy(Blocks.COBBLED_DEEPSLATE).slipperiness(0.7f).strength(20, 500)));
     public static final BuddingBlackIceBlock BUDDING_BLACK_ICE = reg("budding_black_ice", new BuddingBlackIceBlock(FabricBlockSettings.copy(BLACK_ICE).ticksRandomly()));
     public static final Block DEEPSLATE_MONITOR = reg("deepslate_monitor", new Block(FabricBlockSettings.copy(Blocks.DEEPSLATE_TILES).luminance(s -> 5)));
-    public static final AmethystClusterBlock SMALL_SILICON_CRYSTAL = reg("small_silicon_crystal", new AmethystClusterBlock(3, 4, FabricBlockSettings.copy(Blocks.SMALL_AMETHYST_BUD).emissiveLighting(PerihelionBlocks::always)));
-    public static final AmethystClusterBlock LARGE_SILICON_CRYSTAL = reg("large_silicon_crystal", new AmethystClusterBlock(8, 3, FabricBlockSettings.copy(Blocks.SMALL_AMETHYST_BUD).emissiveLighting(PerihelionBlocks::always)));
     public static final SolarBeamBlock SOLAR_BEAM = reg("solar_beam", new SolarBeamBlock(FabricBlockSettings.copy(Blocks.DEEPSLATE_TILES)
             .luminance(s -> s.get(Properties.POWERED) ? 10 : 0).emissiveLighting((s, w, p) -> s.get(Properties.POWERED))));
+    public static final AmethystClusterBlock SMALL_SILICON_CRYSTAL = reg("small_silicon_crystal", new AmethystClusterBlock(3, 4, FabricBlockSettings.copy(Blocks.SMALL_AMETHYST_BUD).emissiveLighting(PerihelionBlocks::always)));
+    public static final AmethystClusterBlock LARGE_SILICON_CRYSTAL = reg("large_silicon_crystal", new AmethystClusterBlock(8, 3, FabricBlockSettings.copy(Blocks.SMALL_AMETHYST_BUD).emissiveLighting(PerihelionBlocks::always)));
 
     public static void init() {}
 

@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 6923409,
+    "separation": 8,
+    "spacing": 15
+  },
+  "structures": [
+    {
+      "structure": "perihelion:sun_portal_room",
+      "weight": 1
+    }
+  ]
+}

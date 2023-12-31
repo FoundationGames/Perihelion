@@ -32,7 +32,7 @@ public abstract class LivingEntityMixin extends Entity implements RadiationBurni
 
     @Inject(method = "baseTick", at = @At("HEAD"))
     private void perihelion$updateRadiationState(CallbackInfo ci) {
-        if (getVehicle() instanceof SolarSailBoatEntity || ((Object) this instanceof PlayerEntity player && player.isCreative())) {
+        if (getVehicle() instanceof SolarSailBoatEntity || ((Object) this instanceof PlayerEntity player && (player.isCreative() || player.isSpectator()))) {
             perihelion$radiationBurning = false;
             perihelion$radiationDamageTicks = 0;
             perihelion$radiationCheckTimer = 0;
