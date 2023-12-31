@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "io.github.foundationgames.perihelion.client.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "ClientPlayerEntityMixin",
+    "InGameHudMixin",
+    "WorldRendererAccess",
+    "WorldRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

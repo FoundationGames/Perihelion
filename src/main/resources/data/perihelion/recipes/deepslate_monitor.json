@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:deepslate_tiles"
+    },
+    "B": {
+      "item": "perihelion:silicon_crystal_shard"
+    }
+  },
+  "pattern": [
+    " A ",
+    "ABA",
+    " A "
+  ],
+  "result": {
+    "item": "perihelion:deepslate_monitor",
+    "count": 2
+  }
+}

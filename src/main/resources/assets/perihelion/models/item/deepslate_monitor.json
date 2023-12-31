@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "perihelion:block/deepslate_component_base",
+    "side": "perihelion:block/deepslate_monitor_off"
+  }
+}

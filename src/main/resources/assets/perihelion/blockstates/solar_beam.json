@@ -1,0 +1,56 @@
+{
+  "variants": {
+    "powered=false,facing=down": {
+      "model": "perihelion:block/solar_beam",
+      "x": 180
+    },
+    "powered=false,facing=east": {
+      "model": "perihelion:block/solar_beam",
+      "x": 90,
+      "y": 90
+    },
+    "powered=false,facing=north": {
+      "model": "perihelion:block/solar_beam",
+      "x": 90
+    },
+    "powered=false,facing=south": {
+      "model": "perihelion:block/solar_beam",
+      "x": 90,
+      "y": 180
+    },
+    "powered=false,facing=up": {
+      "model": "perihelion:block/solar_beam"
+    },
+    "powered=false,facing=west": {
+      "model": "perihelion:block/solar_beam",
+      "x": 90,
+      "y": 270
+    },
+	"powered=true,facing=down": {
+      "model": "perihelion:block/solar_beam_on",
+      "x": 180
+    },
+    "powered=true,facing=east": {
+      "model": "perihelion:block/solar_beam_on",
+      "x": 90,
+      "y": 90
+    },
+    "powered=true,facing=north": {
+      "model": "perihelion:block/solar_beam_on",
+      "x": 90
+    },
+    "powered=true,facing=south": {
+      "model": "perihelion:block/solar_beam_on",
+      "x": 90,
+      "y": 180
+    },
+    "powered=true,facing=up": {
+      "model": "perihelion:block/solar_beam_on"
+    },
+    "powered=true,facing=west": {
+      "model": "perihelion:block/solar_beam_on",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

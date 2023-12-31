@@ -1,0 +1,12 @@
+{
+  "placement": {
+    "type": "perihelion:at_center",
+    "salt": 847109867
+  },
+  "structures": [
+    {
+      "structure": "perihelion:entangled_comet",
+      "weight": 1
+    }
+  ]
+}

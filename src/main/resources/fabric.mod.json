@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "perihelion",
+	"version": "${version}",
+	"name": "Perihelion",
+	"description": "Fly close to the sun",
+	"authors": [
+		"FoundationGames"
+	],
+	"contact": {
+	},
+	"license": "MIT",
+	"icon": "assets/perihelion/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"io.github.foundationgames.perihelion.Perihelion"
+		],
+		"client": [
+			"io.github.foundationgames.perihelion.client.PerihelionClient"
+		]
+	},
+	"mixins": [
+		"perihelion.mixins.json",
+		{
+			"config": "perihelion.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"accessWidener": "perihelion.accesswidener",
+	"depends": {
+		"fabricloader": ">=0.15.0",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:deepslate_tiles"
+    },
+    "B": {
+      "item": "perihelion:silicon_crystal_shard"
+    },
+    "C": {
+      "item": "minecraft:blaze_powder"
+    },
+    "D": {
+      "item": "minecraft:redstone_dust"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "ACA",
+    "ADA"
+  ],
+  "result": {
+    "item": "perihelion:solar_beam",
+    "count": 3
+  }
+}

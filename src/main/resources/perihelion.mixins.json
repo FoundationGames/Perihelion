@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "io.github.foundationgames.perihelion.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "EntityMixin",
+    "LivingEntityMixin",
+    "WorldChunkMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}

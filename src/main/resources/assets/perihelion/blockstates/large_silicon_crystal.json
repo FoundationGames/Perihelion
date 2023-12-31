@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "perihelion:block/large_silicon_crystal",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "perihelion:block/large_silicon_crystal",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "perihelion:block/large_silicon_crystal",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "perihelion:block/large_silicon_crystal",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "perihelion:block/large_silicon_crystal"
+    },
+    "facing=west": {
+      "model": "perihelion:block/large_silicon_crystal",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "perihelion:block/small_silicon_crystal"
+  }
+}

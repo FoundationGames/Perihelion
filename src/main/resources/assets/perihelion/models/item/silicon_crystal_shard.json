@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "perihelion:item/silicon_crystal_shard"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "perihelion:block/deepslate_component_base",
+    "east": "perihelion:block/solar_beam_side",
+    "north": "perihelion:block/solar_beam_side",
+    "particle": "perihelion:block/solar_beam_side",
+    "south": "perihelion:block/solar_beam_side",
+    "up": "perihelion:block/solar_beam_top",
+    "west": "perihelion:block/solar_beam_side"
+  }
+}

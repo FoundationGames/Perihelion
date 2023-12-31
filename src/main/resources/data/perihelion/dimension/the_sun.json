@@ -1,0 +1,12 @@
+{
+  "type": "perihelion:the_sun",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "layers": [],
+      "biome": "perihelion:near_sun_orbit",
+      "lakes": false,
+      "features": true
+    }
+  }
+}

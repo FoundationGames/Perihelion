@@ -1,0 +1,12 @@
+{
+    "ambient.near_sun_orbit.loop": {
+        "sounds": [
+            "perihelion:ambient_near_sun_orbit"
+        ]
+    },
+    "additions.near_sun_orbit.loop": {
+        "sounds": [
+            "perihelion:outside_near_sun_orbit"
+        ]
+    }
+}

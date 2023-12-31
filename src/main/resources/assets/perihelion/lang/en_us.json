@@ -1,0 +1,22 @@
+{
+  "itemGroup.perihelion.perihelion": "Perihelion",
+
+  "item.perihelion.silicon_crystal_shard": "Silicon Crystal Shard",
+  "item.perihelion.solar_sail_boat": "Solar Sail Boat",
+  "item.perihelion.tinted_visor": "Tinted Visor",
+
+  "block.perihelion.deepslate_device": "Deepslate Device",
+  "block.perihelion.deepslate_monitor": "Deepslate Monitor",
+  "block.perihelion.frozen_ash": "Frozen Ash",
+  "block.perihelion.black_ice": "Black Ice",
+  "block.perihelion.budding_black_ice": "Budding Black Ice",
+  "block.perihelion.small_silicon_crystal": "Small Silicon Crystal",
+  "block.perihelion.large_silicon_crystal": "Large Silicon Crystal",
+  "block.perihelion.singularity_projector": "Singularity Projector",
+  "block.perihelion.solar_beam": "Solar Beam",
+
+  "entity.perihelion.solar_sail_boat": "Solar Sail Boat",
+
+  "message.perihelion.sun_gravity": "[Increased gravity detected]",
+  "message.perihelion.boat_control_hint": "Hold %s while sailing upward to descend"
+}

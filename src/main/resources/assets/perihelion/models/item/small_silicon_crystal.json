@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "perihelion:block/small_silicon_crystal"
+  }
+}

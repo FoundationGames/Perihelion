@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "perihelion:deepslate_monitor",
+    "perihelion:solar_beam",
+    "perihelion:small_silicon_crystal",
+    "perihelion:large_silicon_crystal"
+  ]
+}

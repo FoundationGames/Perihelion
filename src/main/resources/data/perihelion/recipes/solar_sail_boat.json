@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:deepslate_tiles"
+    },
+    "B": {
+      "item": "perihelion:silicon_crystal_shard"
+    }
+  },
+  "pattern": [
+    "A A",
+    "AAA",
+    "BBB"
+  ],
+  "result": {
+    "item": "perihelion:solar_sail_boat"
+  }
+}

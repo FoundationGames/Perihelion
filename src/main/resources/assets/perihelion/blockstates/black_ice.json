@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "perihelion:block/black_ice"
+      },
+      {
+        "model": "perihelion:block/black_ice_mirrored"
+      }
+    ]
+  }
+}
